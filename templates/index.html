@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mic Masters Debate & Public Speech Camp</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .poster {
+            width: 100%;  /* Adjust width as needed */
+            max-width: 600px;  /* Max width for larger screens */
+            height: auto;  /* Maintain aspect ratio */
+            margin: auto;  /* Center the image */
+            display: block;  /* Centering */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Mic Masters Debate & Public Speech Camp</h1>
+            <h2>Summer Camp</h2>
+        </div>
+
+        <!-- Display the poster image -->
+        <img src="{{ url_for('static', filename='poster.jpg') }}" alt="Mic Masters Camp Poster" class="poster">
+
+        <h3>Sessions: 1 PM - 4 PM</h3>
+        <p><strong>Batch 1:</strong> August 4th - 8th</p>
+        <p><strong>Batch 2:</strong> August 11th - 15th</p>
+        <h3>Open for Rising Grades 6-10</h3>
+        <h3>Cost: $100 for a week (5 hours total)</h3>
+
+        <h3>Life Skills</h3>
+        <ul>
+            <li>Why Debate & Public Speech?</li>
+            <li>Enhance critical thinking skills</li>
+            <li>Learn to speak confidently</li>
+        </ul>
+
+        <h3>Why Mic Masters?</h3>
+        <p>Mentors are experienced in teaching communication, including the National Spelling Bee, Debate, and DECA.</p>
+        <p>Fun & Supportive Environment!</p>
+
+<h3>Register Now!</h3>
+<p>Fill out the Google Form to register:</p>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSfEh3EqQp4Agt6ZkyywXVq7BMSpn1j7SffBp8qvPVnB7OAMsA/viewform?pli=1" target="_blank" class="btn btn-primary">Registration Form</a>        <footer>
+            <p>Location: 2820 Mustang Dr, Herndon, VA, 20171</p>
+            <p>Email: micmastershq@gmail.com</p>
+        </footer>
+    </div>
+</body>
+</html>
